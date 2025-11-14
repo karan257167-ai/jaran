@@ -1,4 +1,4 @@
-a={"Aman":99,"Amit":85,"Ayush":76,"Ankit":88}
+a={"karan":99,"piyush":85,"harsh":76,"prince":88}
 for student in a:
     if a[student]>=35 and a[student]<60:
         print(f"{student} has scored {a[student]} marks and has grade C")
@@ -9,3 +9,4 @@ for student in a:
     else:
         print(f"{student} has scored {a[student]} marks and has failed")
   
+
